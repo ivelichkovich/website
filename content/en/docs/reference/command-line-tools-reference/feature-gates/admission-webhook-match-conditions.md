@@ -13,6 +13,9 @@ stages:
   - stage: beta
     defaultValue: true
     fromVersion: "1.28"  
+  - stage: stable
+    defaultValue: true
+    fromVersion: "1.30" 
 ---
 Enable [match conditions](/docs/reference/access-authn-authz/extensible-admission-controllers/#matching-requests-matchconditions)
 on mutating & validating admission webhooks.
